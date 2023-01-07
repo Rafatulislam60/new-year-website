@@ -1,50 +1,40 @@
-/*header section style*/
-.banner-container{
-    background: url(../assets/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-position: absolute;
-    width: 1600px;
-    height: 809px;
-    left: 1600px;
-    top: 0px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
+/*header section style*/
 #banner{
+    background: url(../assets/banner/banner2.png);
+    background-repeat: no-repeat;
+    padding: 400px 0;
+    background-size: cover;
+}
+.banner-caption{
     text-align: right;
-    margin-top: 200px;
+    padding-right: 300px;
+    font-family: Work Sans;
 }
 .banner-title{
-    font-size: 60px;
-    margin-top: 500px;
-    line-height: 75px;
     font-weight: 700;
-    font-family: Work Sans;
-    text-align: center;
-    margin-left: 500px;
-
+    line-height: 70px;
+    font-size: 60px;
+    color: #151414;
 }
 .banner-text{
-    margin-top: 0px;
     font-weight: 400;
-    font-size: 11px;
     line-height: 26px;
-    color: #444343;
-    font-family: Work Sans;
-    text-align: center;
-    margin-left: 500px;
+    font-size: 11px;
+    color:#444343
 }
 .btn-primary{
     color: #FFFFFF;
-    background-color: #FD6E0A;
+    background: #FD6E0A;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
     font-weight: 500;
-    font-size: 12px;
-    border: 0;
-    padding: 10px 15px;
     border-radius: 5px;
-    height: 40px;
-    font-family: Work Sans;
-    align-items: center;
-    margin-right: 500px;
+    border: 0;
 }
 
 /* main section styles */
@@ -111,6 +101,8 @@ section{
     font-size: 35px;
     margin-bottom: 50px;
 }
+
+/*plans style*/
 .plans-container{
     display: flex;
     gap: 5px;
@@ -119,7 +111,8 @@ section{
 }
 .plans{
     color: #FFFFFF;
-    gap: 10px;
+    float: left;
+    width: 25%;
 }
 .plans-title{
     color: #151414;
@@ -140,8 +133,10 @@ section{
     font-family: Work Sans;
 }
 .plan-img{
-    width: 92.96px;
-    height: 92.96px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
 }
 .ads{
     background: url(../assets/watch.png), url(../assets/gradient1.png);
