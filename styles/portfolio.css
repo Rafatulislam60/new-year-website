@@ -1,0 +1,243 @@
+/*header section style*/
+.banner-container{
+    background: url(../assets/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+}
+
+#banner{
+    text-align: right;
+    margin-top: 200px;
+}
+.banner-title{
+    font-size: 60px;
+    margin-top: 500px;
+    line-height: 75px;
+    font-weight: 700;
+    font-family: Work Sans;
+    text-align: center;
+    margin-left: 500px;
+
+}
+.banner-text{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #444343;
+    font-family: Work Sans;
+    text-align: center;
+    margin-left: 500px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: 500;
+    font-size: 12px;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: Work Sans;
+    align-items: center;
+    margin-right: 500px;
+}
+
+/* main section styles */
+main{
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.f-container{
+    display: flex;
+    padding: 5%;
+    top: 532;
+    bottom: 132;
+    left: 192;
+    right: 132;
+}
+.half-width-img{
+    width: 50%;
+}
+.half-width{
+    width: 50%;
+    height: 400px;
+    left: 762px;
+    top: 370px;
+    padding-top: 50px;
+}
+img{
+    width: 469px;
+    height: 550.3px;
+    left: 206px;
+    top: 939px;
+    padding-left: 30px;
+}
+.f-title{
+    text-align: left;
+    font-family: Work Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.f-text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #444343;
+}
+.f-list{
+    list-style-type: none;
+    font-family: Work Sans;
+    width: 349px;
+    height: 162px;
+    color: #444343;
+}
+
+section{
+    margin-top: 130px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 20px 250px;
+}
+.plans{
+    color: #FFFFFF;
+    gap: 10px;
+}
+.plans-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    text-align: center;
+    font-family: Work Sans;
+}
+.plans-des{
+    color: #737272;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    font-family: Work Sans;
+}
+.plan-img{
+    width: 92.96px;
+    height: 92.96px;
+}
+.ads{
+    background: url(../assets/watch.png), url(../assets/gradient1.png);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    border-radius: 8px;
+    margin-left: 200px;
+    
+}
+.ads-title{
+    text-align: left;
+    margin-left: 50px;
+}
+.btn-secondary{
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: Work Sans;
+    margin-left: 50px;
+}
+
+.specialize-head{
+    text-align: center;
+    padding: 0 30%;
+}
+.s-title{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 25px;
+}
+.s-text{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 12px;
+}
+.parent{
+    display: flex;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 3px solid blue;
+}
+
+/*footer section styles*/
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
+    background-position: absolute;
+}
+.contact .section-title{
+    text-align: left;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.section-description{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+}
+.btn-third{
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: Work Sans;
+    margin: 10px 0 10px 15px;
+}
+.icon{
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    color: #F15B22;
+    size: 150px;
+}
