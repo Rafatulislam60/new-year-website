@@ -126,25 +126,32 @@ section{
     font-family: Work Sans;
 }
 
-
-.ads{
-    background: url(../assets/watch.png), url(../assets/gradient1.png);
+/*ads section styles */
+#ads{
+    padding-left: 100px;
+    background: url(../assets/gradient3.png), url(../assets/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);;
     background-repeat: no-repeat;
     background-position: absolute;
-    width: 1140px;
+    width: 1000px;
     height: 300px;
-    left: 230px;
     border-radius: 8px;
-    margin-left: 200px;
-    
+    margin-left: 240px
+}
+.ads-caption{
+    text-align: left;
+    padding: ;
+    font-family: Work Sans;
 }
 .ads-title{
-    text-align: left;
-    margin-left: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 50px;
 }
 .btn-secondary{
     color: #FD6E0A;
-    background: #FFFFFF;
+    background: #fffffF;
     padding: 15px;
     font-size: 20px;
     margin-top: 10px;
