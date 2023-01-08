@@ -38,11 +38,15 @@
 }
 
 /* main section styles */
-
+section{
+    margin-top: 130px;
+}
+/* f-content */
 .f-container{
     display: flex;
     width: 50%;
     padding-left: 300px;
+    padding-bottom: 100px;
 }
 .caption{
     text-align: left;
@@ -56,15 +60,15 @@
 }
 .f-title{
     font-weight: 600;
-    line-height: 47px;
+    line-height: 50px;
     font-style: normal;
     font-size: 40px;
     color: #151414;
-    
+
 }
 .f-text{
     font-weight: 400;
-    line-height: 26px;
+    line-height: 32px;
     font-style: normal;
     font-size: 15px;
     color: #444343;
@@ -75,19 +79,17 @@
     width: 349px;
     height: 162px;
     color: #444343;
-}
-
-section{
-    margin-top: 130px;
-}
-.section-title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 50px;
+    line-height: 32px;
 }
 
 /*plans style*/
+
+.my-plan{
+   
+}
+.section h3{
+    color: #151414;
+}
 .plans-container{
     display: flex;
     gap: 5px;
@@ -98,6 +100,12 @@ section{
     color: #FFFFFF;
     float: left;
     width: 25%;
+}
+.plan-img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
 }
 .plans-title{
     color: #151414;
@@ -117,12 +125,8 @@ section{
     text-align: center;
     font-family: Work Sans;
 }
-.plan-img{
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-}
+
+
 .ads{
     background: url(../assets/watch.png), url(../assets/gradient1.png);
     background-repeat: no-repeat;
@@ -140,15 +144,13 @@ section{
 }
 .btn-secondary{
     color: #FD6E0A;
-    background-color: #FFFFFF;
+    background: #FFFFFF;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
     font-weight: 500;
-    font-size: 12px;
-    border: 0;
-    padding: 10px 20px;
     border-radius: 5px;
-    height: 40px;
-    font-family: Work Sans;
-    margin-left: 50px;
+    border: 0;
 }
 
 .specialize-head{
@@ -158,12 +160,16 @@ section{
 .s-title{
     font-family: Work Sans;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #151414;
 }
 .s-text{
     font-family: Work Sans;
     font-weight: 400;
     font-size: 12px;
+    line-height: 20px;
 }
 .parent{
     display: flex;
@@ -181,7 +187,7 @@ section{
     display: flex;
     gap: 100px;
     background: #151414;
-    padding: 130px 200px;
+    padding: 80px 200px;
     background-position: absolute;
 }
 .contact .section-title{
@@ -203,21 +209,25 @@ section{
     text-decoration: none;
 }
 .btn-third{
+    text-align: center;
     color: #FD6E0A;
-    background-color: #FFFFFF;
-    font-weight: 500;
+    background: #FFFFFF;
+    padding: 0px 0;
     font-size: 15px;
-    border: 0;
-    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 500;
     border-radius: 5px;
     height: 40px;
     font-family: Work Sans;
-    margin: 10px 0 10px 15px;
+    border: 0;
 }
 .icon{
     width: 60px;
     height: 50px;
     display: inline-block;
     color: #F15B22;
-    size: 150px;
+    size: 350px;
+}
+input{
+    padding: 8px 15px;
 }
