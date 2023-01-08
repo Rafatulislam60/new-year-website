@@ -38,55 +38,40 @@
 }
 
 /* main section styles */
-main{
-    min-width: 1000px;
-    margin: 0 auto;
-}
+
 .f-container{
     display: flex;
-    padding: 5%;
-    top: 532;
-    bottom: 132;
-    left: 192;
-    right: 132;
-}
-.half-width-img{
     width: 50%;
+    padding-left: 300px;
 }
-.half-width{
-    width: 50%;
-    height: 400px;
-    left: 762px;
-    top: 370px;
-    padding-top: 50px;
+.caption{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: Work Sans;
 }
-img{
-    width: 469px;
-    height: 550.3px;
-    left: 206px;
-    top: 939px;
-    padding-left: 30px;
+.f-img{
+    width: 569px;
+    height: 723.3px;
 }
 .f-title{
-    text-align: left;
-    font-family: Work Sans;
-    font-weight: 700;
+    font-weight: 600;
+    line-height: 47px;
     font-style: normal;
     font-size: 40px;
-    line-height: 47px;
     color: #151414;
+    
 }
 .f-text{
-    font-family: Work Sans;
-    font-style: normal;
     font-weight: 400;
-    font-size: 15px;
     line-height: 26px;
+    font-style: normal;
+    font-size: 15px;
     color: #444343;
+
 }
 .f-list{
     list-style-type: none;
-    font-family: Work Sans;
     width: 349px;
     height: 162px;
     color: #444343;
