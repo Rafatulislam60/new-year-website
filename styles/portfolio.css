@@ -84,11 +84,14 @@ section{
 
 /*plans style*/
 
-.my-plan{
-   
-}
-.section h3{
+.plan-title{
     color: #151414;
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    line-height: 47px;
+    font-size: 40px;
 }
 .plans-container{
     display: flex;
