@@ -241,3 +241,93 @@ section{
 input{
     padding: 8px 15px;
 }
+
+
+/* responsive for mobile */
+
+@media only screen and (max-width: 576px){
+    #banner{
+        padding: 0;
+    }
+    .banner-caption{
+        padding: 30px 15px 30px 0;
+    }
+    .banner-title{
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .banner-text{
+        line-height: 20px;
+        font-size: 11px;
+    }
+    section{
+        margin-top: 10px;
+    }
+    .f-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 0;
+    }
+    .f-img{
+        width: 450px;
+        height: 470px;
+    }
+    .f-img img{
+        width: 400px;
+        height: 470px;
+    }
+    .f-title{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .f-text{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .f-list{
+        text-align: center;
+        width: 100%;
+    }
+    .caption{
+        margin: 100px 0;
+    }
+    .plans-container{
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px 30px;
+    }
+    .plan-title{
+        padding-left: 0;
+    }
+    .plans{
+        width: 100%;
+        padding: 20px 0;
+    }
+    #ads{
+        padding: 0 0 20px 20px;
+        width: 90%;
+        height: 100%;
+        margin: 0 0 0 20px;
+    }
+    .ads-title{
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .specialize-head{
+        padding: 30px;
+    }
+    .s-title{
+        margin-bottom: 30px;
+    }
+    .parent{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contact{
+        gap: 15px;
+        padding: 30px 50px;
+        flex-direction: column;
+    }
+
+}
